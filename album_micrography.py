@@ -82,6 +82,14 @@ def get_args():
                         default  = 10,
                         choices  = range(5, 50),
                         required = False)
+    parser.add_argument('-bg',
+                        '--background',
+                        help     = "Set Image Background Color to Black (for contrast)",
+                        metavar  = '\b',
+                        action   = "store_true", 
+                        default  = False, 
+                        required = False)
+    
 
     args = parser.parse_args()
     return args
@@ -98,6 +106,7 @@ def main():
     album_name  = args.album
     fontSize    = args.font_size
     font        = ImageFont.truetype(args.font_style, fontDrawSize)
+    bg          = args.background
 
     output_dir      = f"{''.join(album_name.split('.')[-1]).replace(' ', '_')}"
     output_dir      = output_dir.translate(str.maketrans('', '', punctuation)).replace(' ', '_')
@@ -143,6 +152,8 @@ def main():
     #output init
     outputImageSize = (width*fontSize//sampleDensity+imgMargin,height*fontSize//sampleDensity+imgMargin)
     imgBgColor = max(sample.getcolors(sample.size[0]*sample.size[1]))[1]
+    if bg: 
+        imgBgColor = (0, 0, 0)
     outputImage = Image.new("RGB", outputImageSize, color=imgBgColor)
     draw = ImageDraw.Draw(outputImage)
 
