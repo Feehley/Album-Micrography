@@ -29,7 +29,7 @@ def get_album(output_dir, artist_name, album_name):
     filename = f"./{output_dir}/lyrics.txt"
     try:
         genius = Genius(
-            'FG39Xe_-ydHMzXIb2hlBI8YSlJSGSQWpoLNYLqHR5R3ZWvMFtda6UzuqPejleSon',
+            'KEY',
             skip_non_songs=True,
             excluded_terms=["(Remix)", "(Live)"],
             remove_section_headers=True)
