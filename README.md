@@ -33,10 +33,10 @@ Create monographs from albums!
 optional arguments:
   -h, --help        show this help message and exit
   -a, --artist      Artist
-  -al, --albumi     Album Title
+  -al, --album.     Album Title
   -f, --font_style  Font Style
   -fs, --font_size  Font Size; Range: (5-50))
-  -bg, --background     Set Image Background Color to Black (for contrast)
+  -bg, --background Set Image Background Color to Black (for contrast)
   ```
 
 #### Basic Usage  ####
