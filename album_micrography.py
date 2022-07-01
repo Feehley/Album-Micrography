@@ -85,7 +85,6 @@ def get_args():
     parser.add_argument('-bg',
                         '--background',
                         help     = "Set Image Background Color to Black (for contrast)",
-                        metavar  = '\b',
                         action   = "store_true", 
                         default  = False, 
                         required = False)
