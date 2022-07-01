@@ -15,6 +15,7 @@ Uses the ![lyricsgenius](https://pypi.org/project/lyricsgenius) API for searchin
 * Create an account
 * Visit the ![API Documentation Page](https://docs.genius.com/) for further API documentation
 * Create an API key using the ![API Clients](https://genius.com/api-clients) page
+* Replace the "KEY" on line 32 and you're set!
 
 ### Setup ###
 ```bash
