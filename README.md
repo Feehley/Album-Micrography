@@ -60,16 +60,28 @@ Searching for "big grrrl small world" by lizzo...
 [+] All lyrics written to: ./biggrrrlsmallworld/lyrics.jpg
 [+] Saving Micrograph to: biggrrrlsmallworld/micrograph.png
 ```
-##### Setting Font Size
+##### Setting Font Size #####
 ```bash
 [~]> python3 album_micrography.py -a 'ed Sheeran' -al divide -f ./FreeMono.ttf -fs 11
 
 Searching for "divide" by ed Sheeran...
 [+] Downloading album cover!
-[+] Image saved to: ./divied/album_art.jpg
+[+] Image saved to: ./divide/album_art.jpg
 [+] All lyrics written to: ./divide/lyrics.jpg
 [+] Saving Micrograph to: divide/micrograph.png
 ```
+
+##### Setting Background Color to Black #####
+```bash
+[~]> python3 album_micrography.py -a 'rage against the machine' -al 'evil empire' -bg
+
+Searching for "evil empire" by rage against the machine
+[+] Downloading album cover!
+[+] Image saved to: ./evilempire/album_art.jpg
+[+] All lyrics written to: ./evilempire/lyrics.jpg
+[+] Saving Micrograph to: evilempire/micrograph.png
+```
+
 
 ### Example Output ###
 #### You Won't Get What You Want by Daughters ###
@@ -78,6 +90,8 @@ Searching for "divide" by ed Sheeran...
 ![Big Grrrl Small World](./examples/lizzo_big_grrrl_small_world_micrograph.png)
 #### Divide by Ed Sheeran ####
 ![Divide](./examples/ed_sheeran_divide_micrograph.png)
+#### Divide by Ed Sheeran ####
+![Evil Empire](./examples/rage_against_the_machine_evil_empire_micrograph.png)
 
 
 ### Follow on steps ###
