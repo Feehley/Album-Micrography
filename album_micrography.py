@@ -9,8 +9,7 @@ from os import path, mkdir
 from PIL import Image, ImageColor, ImageDraw, ImageFont
 from lyricsgenius import Genius # https://github.com/johnwmillr/LyricsGenius
 
-#################################################################
-# Test image downloading
+
 def download_image(output_dir, url):
     extension = url.split('.')[-1]
     filename = f"./{output_dir}/album_art.{extension}"
