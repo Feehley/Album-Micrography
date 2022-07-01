@@ -7,7 +7,7 @@ Uses the ![lyricsgenius](https://pypi.org/project/lyricsgenius) API for searchin
 * Thank you!
     * ![rneiss](https://github.com/rneiss/micrography)
     * ![johnwmillr](https://github.com/johnwmillr/lyricsgenius)
-    * ![FreeMono.ttf](https://pkgs.org/download/font(freemono))
+    * FreeMono.ttf (Ubuntu Free Fonts) https://packages.ubuntu.com/bionic/all/fonts-freefont-ttf/filelist
 
 
 ### Setting up lyricsgenius API ###
