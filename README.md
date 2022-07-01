@@ -25,8 +25,8 @@ Uses the ![lyricsgenius](https://pypi.org/project/lyricsgenius) API for searchin
 ### Usage ###
 #### Help Menu ####
 ```bash
-[~]> python3 micrography.py -h
-usage: micrography.py [-h] -a  -al [-f] [-fs]
+[~]> python3 album_micrography.py -h
+usage: album_micrography.py [-h] -a  -al [-f] [-fs]
 
 Create monographs from albums!
 
@@ -40,7 +40,7 @@ optional arguments:
 
 #### Basic Usage  ####
 ```bash
-[~]> python3 micrography.py -a Daughters -al "You Won't Get What You Want"
+[~]> python3 album_micrography.py -a Daughters -al "You Won't Get What You Want"
 
 Searching for "You Won't Get What You Want" by Daughters...
 [+] Downloading album cover!
@@ -52,7 +52,7 @@ Searching for "You Won't Get What You Want" by Daughters...
 #### Advanced Usage ####
 ##### Setting Font Style #####
 ```bash
-[~]> python3 micrography.py -a lizzo -al "big grrrl small world" -f ./FreeMono.ttf
+[~]> python3 album_micrography.py -a lizzo -al "big grrrl small world" -f ./FreeMono.ttf
 
 Searching for "big grrrl small world" by lizzo...
 [+] Downloading album cover!
@@ -62,7 +62,7 @@ Searching for "big grrrl small world" by lizzo...
 ```
 ##### Setting Font Size
 ```bash
-[~]> python3 micrography.py -a 'ed Sheeran' -al divide -f ./FreeMono.ttf -fs 11
+[~]> python3 album_micrography.py -a 'ed Sheeran' -al divide -f ./FreeMono.ttf -fs 11
 
 Searching for "divide" by ed Sheeran...
 [+] Downloading album cover!
