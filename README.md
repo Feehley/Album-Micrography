@@ -1,20 +1,20 @@
 # Micrography #
 A Python3 script to pull album art and lyrics into a computer generated micrograph.
-Uses the ![lyricsgenius](https://pypi.org/project/lyricsgenius) API for searching albums.
+Uses the [lyricsgenius](https://pypi.org/project/lyricsgenius) API for searching albums.
 
 
 ### Shoutouts! ###
 * Thank you!
-    * ![rneiss](https://github.com/rneiss/micrography)
-    * ![johnwmillr](https://github.com/johnwmillr/lyricsgenius)
+    * [rneiss](https://github.com/rneiss/micrography)
+    * [johnwmillr](https://github.com/johnwmillr/lyricsgenius)
     * FreeMono.ttf (Ubuntu Free Fonts) https://packages.ubuntu.com/bionic/all/fonts-freefont-ttf/filelist
 
 
 ### Setting up lyricsgenius API ###
-* Go to ![Genius](https://genius.com)
+* Go to [Genius](https://genius.com)
 * Create an account
-* Visit the ![API Documentation Page](https://docs.genius.com/) for further API documentation
-* Create an API key using the ![API Clients](https://genius.com/api-clients) page
+* Visit the [API Documentation Page](https://docs.genius.com/) for further API documentation
+* Create an API key using the [API Clients](https://genius.com/api-clients) page
 * Replace the "KEY" on line 32 and you're set!
 
 ### Setup ###
@@ -36,7 +36,8 @@ optional arguments:
   -al, --albumi     Album Title
   -f, --font_style  Font Style
   -fs, --font_size  Font Size; Range: (5-50))
-```
+  -bg, --background     Set Image Background Color to Black (for contrast)
+  ```
 
 #### Basic Usage  ####
 ```bash
